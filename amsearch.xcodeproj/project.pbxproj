@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C521BBCC2C5BF6590016C0D0 /* amsearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C521BBCB2C5BF6590016C0D0 /* amsearchApp.swift */; };
-		C521BBCE2C5BF6590016C0D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C521BBCD2C5BF6590016C0D0 /* ContentView.swift */; };
 		C521BBD02C5BF65B0016C0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C521BBCF2C5BF65B0016C0D0 /* Assets.xcassets */; };
 		C521BBD32C5BF65B0016C0D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C521BBD22C5BF65B0016C0D0 /* Preview Assets.xcassets */; };
+		C521BBFB2C691E960016C0D0 /* CustomMailSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C521BBFA2C691E960016C0D0 /* CustomMailSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C521BBC82C5BF6590016C0D0 /* amsearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amsearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C521BBCB2C5BF6590016C0D0 /* amsearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amsearchApp.swift; sourceTree = "<group>"; };
-		C521BBCD2C5BF6590016C0D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C521BBCF2C5BF65B0016C0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C521BBD22C5BF65B0016C0D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C521BBFA2C691E960016C0D0 /* CustomMailSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMailSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				C521BBCB2C5BF6590016C0D0 /* amsearchApp.swift */,
-				C521BBCD2C5BF6590016C0D0 /* ContentView.swift */,
+				C521BBFA2C691E960016C0D0 /* CustomMailSearch.swift */,
 				C521BBCF2C5BF65B0016C0D0 /* Assets.xcassets */,
 				C521BBD12C5BF65B0016C0D0 /* Preview Content */,
 			);
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C521BBCE2C5BF6590016C0D0 /* ContentView.swift in Sources */,
 				C521BBCC2C5BF6590016C0D0 /* amsearchApp.swift in Sources */,
+				C521BBFB2C691E960016C0D0 /* CustomMailSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

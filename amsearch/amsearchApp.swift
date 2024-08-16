@@ -11,7 +11,13 @@ import SwiftUI
 struct amsearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            rootView
         }
+    }
+    
+    @ViewBuilder
+    private var rootView: some View {
+        let viewModel: UIInboxViewModel = .init()
+        RootView(viewModel: viewModel)
     }
 }
